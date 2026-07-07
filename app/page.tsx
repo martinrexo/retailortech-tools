@@ -26,11 +26,11 @@ const rules = {
 };
 
 const quantityDiscounts = [
-  { min: 1, max: 10, discount: 0 },
-  { min: 11, max: 30, discount: 10 },
-  { min: 31, max: 50, discount: 12 },
-  { min: 51, max: 100, discount: 15 },
-  { min: 101, max: Infinity, discount: 20 },
+  { min: 1, max: 9, discount: 0 },
+  { min: 10, max: 29, discount: 10 },
+  { min: 30, max: 49, discount: 12 },
+  { min: 50, max: 99, discount: 15 },
+  { min: 100, max: Infinity, discount: 20 },
 ];
 
 function getQuantityDiscount(quantity: number) {
