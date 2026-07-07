@@ -4,9 +4,9 @@ import { useState } from "react";
 
 const rules = {
   none: { label: "Bez potisku", percent: 0, minimum: 0 },
-  one: { label: "Jednostranný potisk", percent: 25, minimum: 35 },
-  two: { label: "Oboustranný potisk", percent: 40, minimum: 50 },
-  three: { label: "Trojstranný potisk", percent: 50, minimum: 60 },
+  one: { label: "Jednostranný potisk", percent: 25, minimum: 65 },
+  two: { label: "Oboustranný potisk", percent: 40, minimum: 85 },
+  three: { label: "Trojstranný potisk", percent: 50, minimum: 95 },
 };
 
 const quantityDiscounts = [
