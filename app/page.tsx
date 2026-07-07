@@ -10,17 +10,17 @@ const rules = {
   },
   one: {
     label: "Jednostranný potisk",
-    percent: 85,
+    percent: 80,
     minimum: 65,
   },
   two: {
     label: "Oboustranný potisk",
-    percent: 100,
+    percent: 95,
     minimum: 80,
   },
   three: {
     label: "Trojstranný potisk",
-    percent: 115,
+    percent: 110,
     minimum: 95,
   },
 };
