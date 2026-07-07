@@ -4,9 +4,9 @@ import { useState } from "react";
 
 const rules = {
   none: { label: "Bez potisku", percent: 0, minimum: 0 },
-  one: { label: "Jednostranný potisk", percent: 45, minimum: 65 },
-  two: { label: "Oboustranný potisk", percent: 60, minimum: 85 },
-  three: { label: "Trojstranný potisk", percent: 75, minimum: 95 },
+  one: { label: "Jednostranný potisk", percent: 65, minimum: 65 },
+  two: { label: "Oboustranný potisk", percent: 80, minimum: 80 },
+  three: { label: "Trojstranný potisk", percent: 95, minimum: 95 },
 };
 
 const quantityDiscounts = [
@@ -14,7 +14,7 @@ const quantityDiscounts = [
   { min: 11, max: 30, discount: 10 },
   { min: 31, max: 50, discount: 12 },
   { min: 51, max: 100, discount: 15 },
-  { min: 101, max: Infinity, discount: 15 },
+  { min: 101, max: Infinity, discount: 20 },
 ];
 
 function getQuantityDiscount(quantity: number) {
